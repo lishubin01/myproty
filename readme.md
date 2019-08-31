@@ -13,4 +13,4 @@
 1.如果提交命令时 git commit -m "说明信息"，-m忘记输入会进入另一个界面只需要按esc键 输入 :q!(强制退出)
 
 ###五、查看代码有无放到暂存区
-1.git status
+1.git status（status：状态）
