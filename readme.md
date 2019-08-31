@@ -6,7 +6,8 @@
 1、git config --global user.name "用户名" (配置用户名)
 2、git config --global user.email "邮箱" (配置用户邮箱)
 ###三、上传代码（存储到.git仓库中）
-1.git add ./文件名 (添加上传文件，add（添加）)
+1.git add ./readme.md (添加上传文件，add（添加）)
+  git add ./  (./添加所有文件)
 2.git commit -m "说明信息" (添加说明信息,commit(提交))
 
 ###四、错误操作说明
@@ -14,3 +15,6 @@
 
 ###五、查看代码有无放到暂存区
 1.git status（status：状态）
+
+###六、提交所有修改过的文件
+1.git commit --all -m "提交所有修改文件"  （--all所有）
